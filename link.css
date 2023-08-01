@@ -1,0 +1,132 @@
+@import url('https://fonts.googlepis.com/css2?family=poppins.ital,wght@0,400;0,500;1,300&display=swap');
+
+html 
+{
+    font-size: 62.6%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+body 
+{
+    font-size: 2rem;
+    margin: 2rem 2rem;
+    background: rgb(245, 243, 243);
+    
+}
+ a 
+{
+    font-size: 4rem;
+    color: rgb(168, 253, 41);
+}
+a:hover 
+{
+    padding-bottom: 1.3rem;
+    color:rgb(143, 201, 85);
+
+}
+.login-form.active
+{
+  right:5rem;
+
+}
+.login-form h2
+{
+   font-size:4rem;
+   color:black;
+   text-align: center;
+margin: auto;
+
+}
+.login-form .box
+{
+    margin-top: 5rem;
+    text-align: center;
+    border: .1px solid;
+    margin: .7rem 0%;
+    border-radius: .5rem;
+    padding: .7rem;
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.948);
+    text-transform: none;
+    width:50%;
+
+}
+.login-form p
+{
+ font-size: 1.8rem;
+ padding: .3rem 0%;
+ color:rgba(53, 47, 47, 0.881)
+}
+.login-form p a
+{
+   
+    color:rgba(8, 121, 131, 0.869);
+    text-decoration: underline;
+font-size: 2rem;
+}
+.login-form p a:hover
+{
+    color:rgb(6, 66, 162)
+}
+.login-form{
+    width: 100%;
+    max-width: 500px;
+    /* border: 2px solid; */
+    margin: auto;
+    box-shadow: 0px 1px 18px 3px gray;
+    padding: 20px;
+}
+
+
+
+.btn{
+
+
+
+   margin-top: 1rem;
+   display:inline-block;
+   padding: .9rem 3rem;
+   font-size: 1.5rem;
+   border: .1rem solid rgb(0, 0, 0);
+   border-radius: .5rem;
+   background:#fff;
+   color:black;
+   position: relative;
+  
+
+}
+         
+.btn:hover
+{
+    background: rgb(166, 243, 50);
+    color:#fff;
+}
+
+
+
+
+a
+  {
+            color:rgb(30, 255, 30);
+        }
+        
+        a
+    {
+        	width: 400px;
+        	color: rgb(201, 255, 7);
+        	animation-name: text;
+        	animation-duration: 3s;
+        	animation-fill-mode:backwards;
+        }
+          @keyframes text {
+        	from {
+        		margin-left: 60%;
+                  color: #aaaaaa;
+        	}
+        	to {
+        		margin-left: 0%;
+        		color: rgb(3, 3, 176);
+        	}
+        }
+    
